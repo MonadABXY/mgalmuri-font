@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "DungeunGalmuri10";
+  src: url("DungeunGalmuri10.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.dungeungalmuri10 {
+  font-family: "DungeunGalmuri10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "DungeunGalmuri12";
+  src: url("DungeunGalmuri12.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.dungeungalmuri12 {
+  font-family: "DungeunGalmuri12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "DungeunGalmuri15";
+  src: url("DungeunGalmuri15.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.dungeungalmuri15 {
+  font-family: "DungeunGalmuri15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "DungeunGalmuri8";
+  src: url("DungeunGalmuri8.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.dungeungalmuri8 {
+  font-family: "DungeunGalmuri8", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "GullinGalmuri10";
+  src: url("GullinGalmuri10.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gullingalmuri10 {
+  font-family: "GullinGalmuri10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "GullinGalmuri12";
+  src: url("GullinGalmuri12.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gullingalmuri12 {
+  font-family: "GullinGalmuri12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "GullinGalmuri15";
+  src: url("GullinGalmuri15.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gullingalmuri15 {
+  font-family: "GullinGalmuri15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "GullinGalmuri8";
+  src: url("GullinGalmuri8.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gullingalmuri8 {
+  font-family: "GullinGalmuri8", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "MGalmuri10";
+  src: url("MGalmuri10.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mgalmuri10 {
+  font-family: "MGalmuri10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "MGalmuri12";
+  src: url("MGalmuri12.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mgalmuri12 {
+  font-family: "MGalmuri12", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "MGalmuri15";
+  src: url("MGalmuri15.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mgalmuri15 {
+  font-family: "MGalmuri15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
+
+@font-face {
+  font-family: "MGalmuri8";
+  src: url("MGalmuri8.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mgalmuri8 {
+  font-family: "MGalmuri8", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-synthesis: none;
+}
