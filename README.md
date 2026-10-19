@@ -1,7 +1,7 @@
 # M갈무리
 
 갈무리(Galmuri)를 바탕으로 Monad ABXY가 수정한 픽셀 폰트입니다.
-M갈무리, 둥근갈무리, 굴린갈무리의 8·10·12·15px를 제공합니다.
+M갈무리, 둥근갈무리, 굴린갈무리의 8·10·12·15px를 Regular와 Bold 굵기로 제공합니다.
 
 ## 폰트 미리보기
 
@@ -9,19 +9,19 @@ M갈무리, 둥근갈무리, 굴린갈무리의 8·10·12·15px를 제공합니�
 
 ### 8px
 
-<img src="docs/readme-preview-8.png" alt="M갈무리·둥근갈무리·굴린갈무리 8px" width="372">
+<img src="docs/readme-preview-8.png" alt="M갈무리·둥근갈무리·굴린갈무리 8px (Regular / Bold)" width="372">
 
 ### 10px
 
-<img src="docs/readme-preview-10.png" alt="M갈무리·둥근갈무리·굴린갈무리 10px" width="452">
+<img src="docs/readme-preview-10.png" alt="M갈무리·둥근갈무리·굴린갈무리 10px (Regular / Bold)" width="452">
 
 ### 12px
 
-<img src="docs/readme-preview-12.png" alt="M갈무리·둥근갈무리·굴린갈무리 12px" width="528">
+<img src="docs/readme-preview-12.png" alt="M갈무리·둥근갈무리·굴린갈무리 12px (Regular / Bold)" width="528">
 
 ### 15px
 
-<img src="docs/readme-preview-15.png" alt="M갈무리·둥근갈무리·굴린갈무리 15px" width="600">
+<img src="docs/readme-preview-15.png" alt="M갈무리·둥근갈무리·굴린갈무리 15px (Regular / Bold)" width="600">
 
 ## 자음 형태 비교
 
@@ -43,14 +43,51 @@ M갈무리, 둥근갈무리, 굴린갈무리의 8·10·12·15px를 제공합니�
 
 [최신 버전 다운로드](https://github.com/MonadABXY/mgalmuri-font/releases/latest)
 
+## 웹폰트 적용
+
+HTML `<link>` 태그 또는 CSS `@import` 방식으로 폰트를 불러온 후 사용할 수 있습니다.
+
+### `<link>`
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MonadABXY/mgalmuri-font@main/web/mgalmuri.css" />
+```
+
+### `@import`
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/MonadABXY/mgalmuri-font@main/web/mgalmuri.css");
+```
+
+### 폰트 패밀리로 사용
+
+```css
+/* 기본 (Regular) */
+font-family: "MGalmuri12", sans-serif;
+font-weight: 400;
+
+/* 볼드 (Bold) */
+font-family: "MGalmuri12", sans-serif;
+font-weight: 700;
+```
+
+### 클래스로 사용
+
+```html
+<div class="mgalmuri12">M갈무리 12px</div>
+<div class="mgalmuri12-bold">M갈무리 12px Bold</div>
+```
+
 ## 종류와 권장 크기
 
-| px | M갈무리 | 둥근갈무리 | 굴린갈무리 | pt |
-| --- | --- | --- | --- | --- |
-| 8px | `MGalmuri8` | `DungeunGalmuri8` | `GullinGalmuri8` | 6pt |
-| 10px | `MGalmuri10` | `DungeunGalmuri10` | `GullinGalmuri10` | 7.5pt |
-| 12px | `MGalmuri12` | `DungeunGalmuri12` | `GullinGalmuri12` | 9pt |
-| 15px | `MGalmuri15` | `DungeunGalmuri15` | `GullinGalmuri15` | 11.25pt |
+각 폰트는 **Regular (400)** 및 **Bold (700)** 굵기를 제공합니다.
+
+| px | M갈무리 | 둥근갈무리 | 굴린갈무리 | 굵기 | pt |
+| --- | --- | --- | --- | --- | --- |
+| 8px | `MGalmuri8` | `DungeunGalmuri8` | `GullinGalmuri8` | Regular, Bold | 6pt |
+| 10px | `MGalmuri10` | `DungeunGalmuri10` | `GullinGalmuri10` | Regular, Bold | 7.5pt |
+| 12px | `MGalmuri12` | `DungeunGalmuri12` | `GullinGalmuri12` | Regular, Bold | 9pt |
+| 15px | `MGalmuri15` | `DungeunGalmuri15` | `GullinGalmuri15` | Regular, Bold | 11.25pt |
 
 기본 픽셀 크기 또는 정수 배율을 권장합니다.
 
